@@ -12,4 +12,4 @@ Please keep that in mind. I also have:
 - A separate repository to practice your Python.
 - A separate repository which has all the activities that can be done on NumPy.
 - A separate repository for Pandas .
-
+be active and learn with me..

@@ -12,7 +12,11 @@ Please keep that in mind. I also have:
 - A separate repository to practice your Python.
 - A separate repository which has all the activities that can be done on NumPy.
 - A separate repository for Pandas .
+
+
 be active and learn with me..
+
+
 Hey hey, wait a minute. Before you learn from me, you wonder, "Who am I?" Right? Let me make that clear for you. I am Saud Jabar Ali.
 
 I did my Bachelor's of Technology in Artificial Intelligence and Data Science at Panimalar Engineering College, which is affiliated to Anna University. I have two international conferences and one research article, and I am currently working as a data science intern at Nexia Technologies. I am here in this repo to document the things that I have learned and also need to teach these to people who cross this repository.

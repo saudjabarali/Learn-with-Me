@@ -1,0 +1,77 @@
+Hello everyone.
+ Let's start our learning with the introduction of machine learning. 
+Machine learning is a part of artificial intelligence,
+which learns patterns from data to make predictions and classifications.
+
+ In machine learning, it consists of two types:
+- Supervised learning
+- Unsupervised learning
+Supervised learning is a concept where a machine learns data from labeled data,
+while in unsupervised learning, the machine does not learn from labeled data, 
+It uses clustering methods, but first, we will learn about supervised learning.
+
+In supervised learning, there are two types:
+1. Regression
+2. Classification
+Regression is the process of predicting a numerical value. 
+For example, let's say we have to predict the number of ice creams to be sold on a particular day. That is called regression.
+ In regression, we need to predict a numerical value using the data.
+ In regression, there are several metrics with which we can make sure whether the model is working well or not:
+- MAE (Mean Absolute Error): It finds the average difference between the actual value and the predicted value.
+- MSE (Mean Squared Error): It is the squared differences between the actual value and the predicted value.
+- RMSE (Root Mean Squared Error): It is the root of MSE.
+- R² score (also known as the coefficient of determination): 
+ The formula to find the R² score is R² score = 1 - SST/SSE. 
+ To find SST, which stands for total sum of squares, we need to:
+1. Get the average of the actual value.
+2. Find its difference with the predicted value.
+3. Square each value.
+4. The sum of those values is called the total sum of squares, which stands for SST,
+Then we have to find SSE, which is the sum of squared errors. 
+Here, we need to:
+1. Find the difference between the actual value and the predicted value.
+2. Square that value.
+3. Find the sum of all squared errors. That is the sum of squared errors.
+
+All of these matrices are used to evaluate the model, and to make sure whether our prediction is good or bad. 
+
+
+ Now let's move on to classification.
+ There are two types of classification:
+1. Binary classification
+2. Multi-class classification
+Binary classification is when a model needs to predict a value between two options. 
+For example, either the model predicts it as true or false.
+On the other hand, multi-class classification is a classification model when a model chooses to go with one option out of more than two classes. 
+For example, we have data of images with 10 classes:
+- cat
+- dog
+- fish
+- aeroplane
+- helicopter
+- crocodile
+- cow
+- human
+- parrot
+- car
+The model needs to predict which one of the them is which. That is called multi-class classification.
+
+Classification also has several matrices. The main thing is called a confusion matrix. They named it right. 
+A confusion matrix consists of true negative, false positive, false negative, and true positive.
+  First, true negative.
+- True negative is what the model predicts as false, but it actually comes out as false.
+- False positive is when a model predicts as true, but the actual result is false.
+- False negative is when the model predicts it as false, but it actually comes out to be true.
+- True positive means it actually is true, and the model predicts it as true.
+
+Let's come into the matrices section.
+1. Accuracy: To find accuracy, we need to add true negative with true positive, divided by true negative, false positive, false negative, and true positive.
+2. Precision: Precision means which the model predicts as true and it actually is true. To find precision, we need to divide true positive by true positive and false positive.
+3. Recall: Recall means, out of all true, what are the chances to find if it is true? To find recall, we need to divide true positive by false negative and true positive.
+4. F1 score, which is the average of precision and recall.
+5. NPV, which stands for number of predicted value, which is a precision for false output. It goes as true negative divided by true negative and false negative.
+6. Specificity: Specificity is a recall of false. It goes by true negative divided by true negative and false positive.
+
+And then here comes the unsupervised learning method, 
+which is clustering. Clustering is a method of grouping data based on its pattern. It doesn't have any labels to identify or to learn. Instead,
+it uses clustering methods. One of the popular algorithms for this clustering method is known as K-means clustering. 

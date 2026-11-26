@@ -1,0 +1,59 @@
+In this chat, we are going to know about:
+- softmax function
+- temperature
+- attention
+- masking
+- multi-layer perceptron
+- forward propagation
+- activation function
+
+Softmax function
+
+Softmax is a standard way to turn an arbitrary list of numbers into a valid distribution, 
+such that a larger value is closer to 1 and a smaller value is closer to 0.
+
+Temperature
+
+Temperature is a tunable part of the softmax function. When the temperature is lower, 
+it gives dominance to the bigger value and small dominance to the other value. 
+When the temperature is higher, all the softmax probabilities will become uniform. 
+That means higher temperature gives nonsense meanings.
+Also, the input of softmax functions is logits, and the output is probability. 
+
+Attention.
+
+Attention is a concept found in 2017 with the paper called "Attention Is All You Need." 
+The paper is about the conceptual understanding of a sentence in a neural network: how an LLM understands a sequence of words.
+In attention, we have three matrices: query, key, and value. 
+Each of the words in a sentence contains these matrices, 
+and they pass information within those sentences to achieve a meaningful idea of the sentence.
+
+Masking 
+
+Masking is a process of making a later token or future token zero or negative infinity 
+so that the present and past tokens aren't influenced by the future tokens. 
+
+:- We will see in depth about attention and masking in a complete architecture of transformers in upcoming chats. 
+
+Multi-layer perceptron
+
+A multi-layer perceptron is a type of feedforward neural network which consists of input layers, 
+one or more hidden layers, and output layers, followed by activation functions to create a non-linear relationship.
+Neurons in the MLPs are typically connected to every other neuron. 
+That is why MLPs are also known as fully connected neural networks. 
+Each neuron applies a weight transformation followed by an activation function. By stacking all of these features, 
+an MLP can understand a complex relationship within its data. 
+
+Forward propagation
+
+Forward propagation is a process of passing the input data through a neural network, 
+where each neuron contains its weights and bias and then goes through an activation function to reach other neurons until the output neurons are reached. 
+This process continues until the neural network produces the final output. 
+
+What is an activation function, and which activation function would you use for your neural network?
+
+Activation functions allow a network to learn non-linear relationships. 
+For hidden layers, I would use ReLU activation functions. 
+For the output layers, for example, if it is a binary classification, I would use a sigmoid activation function. 
+For multi-class classification, I would use a sigmoid function because it produces an arbitrary list of probabilities from raw logits.
+

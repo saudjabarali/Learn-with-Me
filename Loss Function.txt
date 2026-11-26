@@ -1,0 +1,48 @@
+The loss function in a neural network is used to evaluate our model's performance 
+so that we can perform optimization steps to ensure our model receives the lowest loss function. 
+
+There are several types of loss functions available:
+1. Cross-entropy loss for classification problems
+2. Mean squared error, which measures errors in regression tasks
+
+Cross-entropy loss
+
+Cross-entropy loss is a loss function commonly used for classification problems. 
+It measures how well the predicted probability distribution matches the actual class labels. 
+If a model assigns a higher probability for the correct class, then the loss would be smaller, 
+but if the model assigns a lower probability for the correct class, then the loss function is very high.
+
+For example, in an animal classification model, 
+if the correct output is cat and the model predicts it correctly with around 90%, 
+then the loss would be lower. If the model predicts it as 10%, then the loss would be high.
+
+Cross-entropy loss also calculates softmax functions internally, 
+so we have to provide raw logits to the cross-entropy loss. 
+Usually done in PyTorch with the `nn.cross_entropy_loss()` function. 
+
+Why do we use cross-entropy loss instead of mean squared error for classification problems?
+
+Cross-entropy loss is commonly used for classification problems 
+because it measures how well the model's predicted probability actually matches the class label. 
+It assigns a higher probability to the correct label, which produces the lowest loss. 
+If the model produces a lower chance for the correct label, then the loss would be high.
+
+Mean squared error is commonly used for regression tasks. 
+It calculates the squared differences between the actual value and predicted value and takes their average. 
+
+The main difference is that cross-entropy is designed to evaluate classification predictions, 
+while mean squared error is used to measure numerical prediction errors. 
+However, the choice of the loss function ultimately depends on the problem and how well you need to train your model. 
+
+How would you choose loss functions for your model?
+
+I choose the loss function based on the type of problem that I am solving. 
+For regression tasks such as predicting house prices, I would use mean squared error because 
+it measures the difference between the actual value and the predicted value and squares them to take their average.
+
+For classification problems, I would use cross-entropy loss because 
+it produces the probability distribution of multiple classes. If the higher-probability class has been chosen, 
+then the loss would be low, but if the correct class doesn't have a higher chance, then the loss would be high.
+
+I would choose the loss function based on the problem that I am solving: 
+mean squared error for regression tasks and cross-entropy for classification tasks. 

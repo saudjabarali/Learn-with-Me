@@ -1,0 +1,90 @@
+Hello everyone. In this chat, we are going to know about:
+- Neural network
+- gradient descent
+- backpropagation
+- stochastic gradient descent
+- transformers, including:
+- word embedding
+- vector space
+- semantic math
+- dot products
+- embedding matrix
+- context size
+
+ Neural network
+
+A neural network consists of neurons, just like our brain cells. 
+It consists of input layers, hidden layers, and output layers. 
+The connections between each neuron have weights and bias. 
+The weights are transferred from one neuron to the other neurons. 
+The bias is designed to adjust the value to get a desired output based on the data. 
+
+Gradient descent
+
+Gradient descent is an optimization algorithm which is used to find the minimum of a cost function. 
+It goes by calculating the current gradient, which is a slope at its current position, 
+ and moves towards the opposite side to find the local minima. 
+Depending on the current parameter and learning rate, 
+ the algorithm may settle into different local minima positions. 
+Ultimately, this algorithm will find a model parameter which produces the lowest loss possible. 
+
+Backpropagation
+
+Backpropagation takes place in an artificial neural network. 
+Backpropagation is a process of adjusting the weights and bias whenever we get bad performance in prediction or an incorrect prediction, 
+because we only have influence over the bias and weight.
+
+Backpropagation works on the concept of the chain rule, which has an influence over previous neurons' weights and biases, 
+and then ends up using a technique called stochastic gradient descent to find the model parameters which produce the lowest loss.
+
+Stochastic gradient descent
+
+Stochastic gradient descent is an optimization algorithm, just like gradient descent, 
+but it works concisely and produces the shortest route to reach its local minima. 
+
+This overall process makes the model adjust and get better results and predictions with minimal loss. 
+
+There is a saying in neurons, which is popular amongst developers, 
+which goes as "neurons that fire together, wire together." 
+This is also known as Hebb's law. This was quoted by neuroscientist Dr. Carla Shetz. 
+
+Transformers
+
+Transformers process tokens, which are raw building blocks of text. 
+One data scientist told me a convenient lie, which is, "Let's pretend tokens are always simply words." 
+
+
+Word embeddings
+
+Word embeddings are dense numerical vectors that represent words in a continuous vector space to give a semantic and syntactic meaning.
+
+Vector space
+
+Similar words are arranged together in a multidimensional vector space because they share similar meanings.
+
+ML inputs
+
+Words are converted into tokens because the computers can't generally understand words. It only understands numerical vectors, 
+so words are converted into vectors for better understanding by computers.
+
+Semantic math
+
+Vectors allow operations such as finding similar concepts of words using semantic math. 
+For example, king denotes as male. To find a similar word, such as queen, the vectors need to find a distance between word vectors, 
+such as man and woman. After they find that distance between those vectors, the other vectors, such as queen, 
+will be found in the same area as queen. That is called semantic math. 
+
+Cosine similarity
+
+To find a semantic relationship between words, we need cosine similarity because it shows the distance in numerical form. 
+When the cosine similarity number is positive, the words are closer. When it is zero, the words are perpendicular. 
+When it is negative, the words are located further than the current word.
+
+Embedding matrix
+
+An embedding matrix consists of loaded vocabularies as vectors in numerical form 
+
+context size
+
+Context size is the information stored, and it processes them within a range. 
+For example, a context size of 2048 means only 2048 tokens are processed in a single sequence. 

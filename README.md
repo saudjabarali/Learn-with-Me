@@ -9,9 +9,9 @@ In this repository, learn with me. We are going to understand the fundamentals o
 4. Learn Matplotlib, because it would be easier for us to convert this theory into a practical environment.
 5. Scikit-Learn
 Please keep that in mind. I also have:
-- A separate repository to practice your Python.
-- A separate repository which has all the activities that can be done on NumPy.
-- A separate repository for Pandas .
+- A separate repository to practice your Python. in the name of "Python_grind"
+- A separate repository which has all the activities that can be done on NumPy. in the name of "Numpy_grind"
+- A separate repository for Pandas . in the name of "Pandas grind"
 
 
 be active and learn with me..
